@@ -1,1 +1,31 @@
-@import 'tailwindcss'
+@import 'tailwindcss';
+
+@font-face {
+   font-family: 'Genesis Sans';
+   src: local('/fonts/Genesis Sans  Regular'), local('Genesis-Sans--Regular'),
+       url('/fonts/GenesisSansTextKRRegular.woff2') format('woff2'),
+       url('/fonts/GenesisSansTextKRRegular.woff') format('woff'),
+       url('/fonts/GenesisSansTextKRRegular.ttf') format('truetype');
+   font-weight: 400;
+   font-style: normal;
+}
+
+html, body{
+	padding: 0px;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+*{
+	box-sizing: border-box;
+	font-family: Genesis Sans;
+}
+
+h1{
+   letter-spacing: -0.075em;
+}
+
+h3{
+   letter-spacing: -2px;
+}

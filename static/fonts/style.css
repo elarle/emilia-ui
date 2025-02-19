@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Genesis Sans ';
+    src: local('Genesis Sans  Regular'), local('Genesis-Sans--Regular'),
+        url('GenesisSansTextKRRegular.woff2') format('woff2'),
+        url('GenesisSansTextKRRegular.woff') format('woff'),
+        url('GenesisSansTextKRRegular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }
