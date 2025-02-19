@@ -8,6 +8,30 @@ declare global {
 		// interface PageState {}
 		// interface Platform {}
 	}
-}
 
+	interface ApiData{
+		timestamp: number,
+		data_type: number,
+		value: number
+	}
+
+	interface ChartPoint{
+		time: number,
+		value: number
+	}
+
+	interface ChartSerie{
+		serie: any,
+		max: ChartPoint,
+		min: ChartPoint,
+		data: Array<ChartPoint>
+	}
+
+	interface Series{
+		temperature: ChartSerie,
+		humidity: ChartSerie,
+		pressure: ChartSerie,
+		rain: ChartSerie
+	}
+}
 export {};
